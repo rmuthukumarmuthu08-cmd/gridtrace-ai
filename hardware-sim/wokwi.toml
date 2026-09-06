@@ -1,0 +1,6 @@
+# Wokwi configuration for the VS Code / PlatformIO workflow.
+# (Not needed if you run the project on wokwi.com in the browser.)
+[wokwi]
+version = 1
+firmware = '.pio/build/esp32dev/firmware.bin'
+elf      = '.pio/build/esp32dev/firmware.elf'
