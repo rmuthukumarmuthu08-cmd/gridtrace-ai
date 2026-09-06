@@ -1,0 +1,8 @@
+# GridTrace AI - local prototype dependencies.
+# Deliberately small: no TensorFlow/PyTorch (the autoencoder is NumPy), no
+# Mosquitto (a minimal MQTT broker ships in gridtrace/broker.py), no cloud SDKs.
+numpy>=1.24
+scikit-learn>=1.3      # Isolation Forest + StandardScaler
+joblib>=1.3            # model bundle serialisation
+paho-mqtt>=1.6         # MQTT client (works on 1.x and 2.x)
+flask>=2.2             # local dashboard
