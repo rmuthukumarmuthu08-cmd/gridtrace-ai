@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Trained artefacts and generated data — regenerate with `python -m gridtrace.train`.
+# The model bundle is a version-sensitive pickle; committing it invites silent
+# wrong results when the reader's scikit-learn differs from the writer's.
+*.joblib
+*.ndjson
+*.db
+*.db-wal
+*.db-shm
+gridtrace/data/localization.json
+
+# PlatformIO / Wokwi build output
+.pio/
+.pioenvs/
+.piolibdeps/
+hardware-sim/build/
+*.elf
+*.bin
+*.hex
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
